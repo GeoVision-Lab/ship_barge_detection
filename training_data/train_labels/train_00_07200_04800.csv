@@ -1,0 +1,4 @@
+filename,width,height,category,x1,y1,x2,y2
+train_00_07200_04800.jpg,600,600,ship_not_moving,472,251,499,271
+train_00_07200_04800.jpg,600,600,barge,491,228,554,251
+train_00_07200_04800.jpg,600,600,barge,493,212,531,231

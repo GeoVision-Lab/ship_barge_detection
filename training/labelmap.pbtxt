@@ -1,0 +1,13 @@
+item {
+  id: 1
+  name: 'ship'
+}
+
+item {
+  id: 2
+  name: 'barge'
+}
+item {
+  id: 3
+  name: 'unknown'
+}

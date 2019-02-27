@@ -1,0 +1,17 @@
+filename,width,height,category,x1,y1,x2,y2
+train_01_01800_03000.jpg,600,600,ship_not_moving,296,472,312,493
+train_01_01800_03000.jpg,600,600,ship_not_moving,271,449,299,482
+train_01_01800_03000.jpg,600,600,ship_not_moving,264,449,295,490
+train_01_01800_03000.jpg,600,600,ship_not_moving,246,442,271,480
+train_01_01800_03000.jpg,600,600,ship_not_moving,227,443,268,498
+train_01_01800_03000.jpg,600,600,ship_not_moving,212,440,249,497
+train_01_01800_03000.jpg,600,600,ship_not_moving,199,445,231,491
+train_01_01800_03000.jpg,600,600,ship_not_moving,185,438,210,485
+train_01_01800_03000.jpg,600,600,ship_not_moving,174,438,196,479
+train_01_01800_03000.jpg,600,600,ship_not_moving,162,434,184,485
+train_01_01800_03000.jpg,600,600,ship_not_moving,149,426,168,468
+train_01_01800_03000.jpg,600,600,ship_not_moving,132,427,154,469
+train_01_01800_03000.jpg,600,600,ship_not_moving,124,421,139,459
+train_01_01800_03000.jpg,600,600,ship_not_moving,115,423,127,460
+train_01_01800_03000.jpg,600,600,ship_not_moving,106,419,116,446
+train_01_01800_03000.jpg,600,600,ship_not_moving,60,533,79,548

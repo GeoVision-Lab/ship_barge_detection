@@ -1,0 +1,11 @@
+filename,width,height,category,x1,y1,x2,y2
+train_00_08400_03000.jpg,600,600,barge,-4,109,55,127
+train_00_08400_03000.jpg,600,600,barge,0,90,49,105
+train_00_08400_03000.jpg,600,600,barge,-8,72,62,91
+train_00_08400_03000.jpg,600,600,barge,22,45,60,61
+train_00_08400_03000.jpg,600,600,barge,-18,29,18,43
+train_00_08400_03000.jpg,600,600,ship_not_moving,315,520,351,533
+train_00_08400_03000.jpg,600,600,ship_not_moving,332,598,349,602
+train_00_08400_03000.jpg,600,600,ship_not_moving,323,581,350,594
+train_00_08400_03000.jpg,600,600,ship_not_moving,322,565,353,573
+train_00_08400_03000.jpg,600,600,ship_not_moving,317,552,354,561

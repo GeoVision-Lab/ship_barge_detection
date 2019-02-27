@@ -1,0 +1,5 @@
+filename,width,height,category,x1,y1,x2,y2
+train_00_07200_01800.jpg,600,600,barge,30,582,71,597
+train_00_07200_01800.jpg,600,600,barge,101,574,151,591
+train_00_07200_01800.jpg,600,600,barge,320,498,332,544
+train_00_07200_01800.jpg,600,600,barge,172,564,224,583
