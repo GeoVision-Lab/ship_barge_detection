@@ -79,6 +79,5 @@ training_data
 └───valid_images
 │   │   train_02_00000_00600.jpg
 │   │   train_02_000600_01200.jpg
-
 ```
 
