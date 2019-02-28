@@ -42,7 +42,7 @@ This tutorial is written using Windows 10 and tested on Linux as well. So, provi
 
 ## 2. Gathering Satellite images and Labeled Json Data
 
-Follow the link to download raw data [link] or put your data on these folders. At the end your files should look like this: 
+Follow the link to download raw data from [Tellus Satellite Challenge](https://signate.jp/competitions/153) or put your data on these folders. At the end your files should look like this: 
 
 ```
 raw_data 
