@@ -3,11 +3,10 @@ This readme describes methods to Create own object detection classifier using La
 1. Installation
 2. Gathering Satellite images and Labeled Json Data.
 3. Cropping Large images and Labeled data to small batch
-4. Generating training Data
-5. Creating label maps and configuring training
-6. Training
-7. Exporting the inference graph
-8. Testing newly trained object detection classifier
+4. Generating label maps, tfrecord 
+5. Training
+6. Exporting the inference graph
+7. Testing newly trained object detection classifier
 
 
 # Introduction 
@@ -81,3 +80,4 @@ training_data
 │   │   train_02_000600_01200.jpg
 ```
 
+## 4. Generating label maps, tfrecord 
