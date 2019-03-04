@@ -193,17 +193,10 @@ Test the newly trained object detection classifier from [ship_barge_detection_tu
 
 * In the model Preparation part of the code, change the PATH_TO_FROZEN_GRAPH and NUM_CLASSES with the path of your brand new frozen_inference_graph.pb and number of classes of your object detection classifier. 
 
-| Solarized dark             |  Solarized Ocean | 
+|        |   | 
 | :-------------------------:|:-------------------------: | 
-| ![](https://github.com/UttamDwivedi/ship_barge_detection/blob/master/results/test_images_output/image1.jpg)  |  ![](https://github.com/UttamDwivedi/ship_barge_detection/blob/master/results/test_images_output/image1.jpg)| 
+| ![](https://github.com/UttamDwivedi/ship_barge_detection/blob/master/results/test_images_output/image2.jpg)  |  ![](https://github.com/UttamDwivedi/ship_barge_detection/blob/master/results/test_images_output/image4.jpg)| 
 
-![result](https://github.com/UttamDwivedi/ship_barge_detection/blob/master/results/test_images_output/image1.jpg)
-
-![result](https://github.com/UttamDwivedi/ship_barge_detection/blob/master/results/test_images_output/image2.jpg)
-
-![result](https://github.com/UttamDwivedi/ship_barge_detection/blob/master/results/test_images_output/image3.jpg)
-
-![result](https://github.com/UttamDwivedi/ship_barge_detection/blob/master/results/test_images_output/image4.jpg)
 
 
 
