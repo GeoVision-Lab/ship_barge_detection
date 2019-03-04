@@ -3,10 +3,11 @@ This readme describes methods to Create own object detection classifier using La
 1. Installation
 2. Gathering Satellite images and Labeled Json Data.
 3. Cropping Large images and Labeled data to small batch
-4. Generating label maps, tfrecord 
-5. Training
-6. Exporting the inference graph
-7. Testing newly trained object detection classifier
+4. Generate training data as TFRecord
+5. Create label maps and configure training
+6. Begin training
+7. Exporting the inference graph
+8. Testing newly trained object detection classifier
 
 
 # Introduction 
@@ -80,4 +81,31 @@ training_data
 │   │   train_02_000600_01200.jpg
 ```
 
-## 4. Generating label maps, tfrecord 
+## 4. Generate training data as TFRecord 
+
+TFRecord file format is a binary file format for storage of training and validation data. Binary data takes up less space on disk, takes less time to copy and can be read much more efficiently from disk. In case of datasets that are too large to be stored fully in memory, TFRecord file format is optimized for TensorFlow to load only the data that are required at the time (e.g. a batch).
+
+To create TFRecord from our training data open [generate_tfrecored.py](https://github.com/UttamDwivedi/ship_barge_detection/blob/master/generate_tfrecord.py) and add your label map in the place of following lines. 
+
+```
+# TO-DO replace this with label map
+def class_text_to_int(row_label):
+    if row_label == 'ship':
+        return 1
+    elif row_label == 'barge':
+        return 2
+    elif row_label == 'unknown':
+        return 3
+    else:
+        None
+```
+Now, generate the TFRecords files by running these commands from \ship_barge_detection folder
+
+```
+# For training data
+python generate_tfrecord.py --csv_input=training_data\train_labels.csv --image_dir=training_data\train_images --output_path=train.record
+
+# For validation data
+python generate_tfrecord.py --csv_input=training_data\valid_labels.csv --image_dir=training_data\valid_images --output_path=valid.record
+```
+These generate a train.record and a valid.record file in \ship_barge_detection. These will be used to train the new object detection classifier.

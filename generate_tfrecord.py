@@ -2,13 +2,10 @@
 Usage:
   # From tensorflow/models/
   # Create train data:
-  python generate_tfrecord.py --csv_input=images/train_labels.csv --image_dir=images/train_images --output_path=train.record
+  python generate_tfrecord.py --csv_input=training_data\train_labels.csv --image_dir=training_data\train_images --output_path=train.record
 
-  # Create test data:
-  python generate_tfrecord.py --csv_input=images/test_labels.csv  --image_dir=images/test_images --output_path=test.record
-
-  # Run training
-  python train.py --logtostderr --train_dir=training/ --pipeline_config_path=training/ssd_mobilenet_v1_coco.config
+  # Create validation data:
+  python generate_tfrecord.py --csv_input=training_data\valid_labels.csv --image_dir=training_data\valid_images --output_path=valid.record
 """
 from __future__ import division
 from __future__ import print_function
