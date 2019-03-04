@@ -37,12 +37,24 @@ To get the basic idea of the model, please go through the tutorial jupyter noteb
     conda install -c anaconda pandas
     conda install -c anaconda pillow 
     conda install -c anaconda git
+    pip install pillow
+    pip install lxml
+    pip install Cython
+    pip install matplotlib
+    pip install opencv-python
     ```
 * Download this tutorial's repository from GitHub. 
   
   ```
    git clone https://github.com/UttamDwivedi/ship_barge_detection.git
+
+   # unzip ship_barge_detection folder
+
+   # From ship_barge_detection/
+   set PYTHONPATH=path\to\ship_barge_detection;path\to\ship_barge_detection\slim
+
   ``` 
+  Please follow Object Detection API [LINK](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md) for detailed instruction.
 
 ## 2. Gathering Satellite images and Labeled Json Data
 
