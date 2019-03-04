@@ -20,7 +20,7 @@ This tutorial is written using Windows 10 and tested on Linux as well. So, provi
 
 ## 1. Installation
 
-* Download and Install anaconda with python 3.6 [link].
+* Download and Install [Anaconda3-5.3.0](https://repo.continuum.io/archive/) with python 3.6 and make it default python. 
 * Install tensorflow-gpu using anaconda (Simplest way of installing gpu version). No need to use cuda or cudnn files-
   
    ``` 
