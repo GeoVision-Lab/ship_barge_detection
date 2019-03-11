@@ -16,7 +16,7 @@ The purpose of this tutorial is to explain how to train one's own object detecti
 
 This tutorial is written using Windows 10 and tested on Linux as well. So, provided codes can work in both operating system.
 
-To get the basic idea of the model, please go through the tutorial jupyter notebook [ship_barge_detection_tutorial.ipynb](https://github.com/UttamDwivedi/ship_barge_detection/blob/master/ship_barge_detection_tutorial.ipynb). If you want to train your own classifier, please go through the process described below. 
+To get the basic idea of the model, please go through the tutorial jupyter notebook [ship_barge_detection_tutorial.ipynb](https://github.com/UttamDwivedi/ship_barge_detection/blob/master/ship_barge_detection_tutorial.ipynb). If you want to train your own classifier, please go through the process described below. The pretrained model can be downloaded from [google drive](https://drive.google.com/open?id=1A2pBnzoIs17pyZZOs6QURNOKt0hb5kRu) or [one drive](https://1drv.ms/f/s!AmM_Y9t_2qLJ3yFELu6EmUu_0WyO). Save the downloaded model in ship_barge_detection/inference_graph folder. 
 
 
 
